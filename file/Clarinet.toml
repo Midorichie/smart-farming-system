@@ -1,0 +1,22 @@
+[project]
+name = "smart-farming-iot"
+description = "Smart Farming IoT System on Stacks Blockchain"
+authors = ["Your Name <your.email@example.com>"]
+telemetry = false
+requirements = []
+boot_contracts = ["pox", "costs-v2", "bns"]
+
+[contracts.smart-farming]
+path = "./contracts/smart-farming.clar"
+clarity_version = 2
+epoch = 2.1
+
+[contracts.sensors-registry]
+path = "./contracts/sensors-registry.clar"
+clarity_version = 2
+epoch = 2.1
+
+[contracts.data-storage]
+path = "./contracts/data-storage.clar"
+clarity_version = 2
+epoch = 2.1
